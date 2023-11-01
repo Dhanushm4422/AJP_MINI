@@ -21,12 +21,12 @@ public class User
      @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private long id;
-    private String username;
-    private String age;
-    private String email;
-    private String phonenumber; 
-    private String gender;
-    private String password;
-
+    private String name;
+    private String mail;
+    private String ph;
+    private String arive; 
+    private String depart;
+    private String room;
+    private String bed;
 }
 
